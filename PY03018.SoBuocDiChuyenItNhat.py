@@ -1,7 +1,5 @@
 from collections import deque
 
-directions = [(0, 1), (1, 0), (1, 1)]
-
 def sol(n, m, a):
     vis = [[0] * m for _ in range(n)]
     q = deque([((0, 0), 0)])
